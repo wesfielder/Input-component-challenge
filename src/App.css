@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
+.app {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+
+  grid-template-columns: 200px 1fr 1fr;
+  grid-template-rows: 80px 1fr 1fr 50px;
+  grid-template-areas:
+    "sidebar header header"
+    "sidebar main-content main-content"
+    "sidebar main-content main-content"
+    "sidebar footer footer";
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* layout styles */
+.header {
+  grid-area: header;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.sidebar {
+  grid-area: sidebar;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-content {
+  grid-area: main-content;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+/* display styles */
+.item {
+  border: solid red 4px;
+
+  /* center content */
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  margin-left: 10vw;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #4f4f4f;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sidebar {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  background: #fafbfd;
+}
+
+.main-content {
+  margin-left: 10vw;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  margin-left: 10vw;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: left;
+  color: #c0bfbf;
+}
+
+a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: left;
+  color: #c0bfbf;
 }
