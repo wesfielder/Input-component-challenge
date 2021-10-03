@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Input-component-challenge/static/css/main.006a5fcb.chunk.css",
+    "main.js": "/Input-component-challenge/static/js/main.4304b88d.chunk.js",
+    "main.js.map": "/Input-component-challenge/static/js/main.4304b88d.chunk.js.map",
+    "runtime-main.js": "/Input-component-challenge/static/js/runtime-main.98e1b141.js",
+    "runtime-main.js.map": "/Input-component-challenge/static/js/runtime-main.98e1b141.js.map",
+    "static/js/2.7df1da29.chunk.js": "/Input-component-challenge/static/js/2.7df1da29.chunk.js",
+    "static/js/2.7df1da29.chunk.js.map": "/Input-component-challenge/static/js/2.7df1da29.chunk.js.map",
+    "static/js/3.7ab5a571.chunk.js": "/Input-component-challenge/static/js/3.7ab5a571.chunk.js",
+    "static/js/3.7ab5a571.chunk.js.map": "/Input-component-challenge/static/js/3.7ab5a571.chunk.js.map",
+    "index.html": "/Input-component-challenge/index.html",
+    "static/css/main.006a5fcb.chunk.css.map": "/Input-component-challenge/static/css/main.006a5fcb.chunk.css.map",
+    "static/js/2.7df1da29.chunk.js.LICENSE.txt": "/Input-component-challenge/static/js/2.7df1da29.chunk.js.LICENSE.txt",
+    "static/media/add_shopping_cart_black_24dp.fa1cf4ae.svg": "/Input-component-challenge/static/media/add_shopping_cart_black_24dp.fa1cf4ae.svg",
+    "static/media/cancel_black_24dp.0a373bfb.svg": "/Input-component-challenge/static/media/cancel_black_24dp.0a373bfb.svg",
+    "static/media/delete_outline_black_24dp.acaa8900.svg": "/Input-component-challenge/static/media/delete_outline_black_24dp.acaa8900.svg",
+    "static/media/help_black_24dp.4bb214dd.svg": "/Input-component-challenge/static/media/help_black_24dp.4bb214dd.svg",
+    "static/media/pets_black_24dp.c2d47449.svg": "/Input-component-challenge/static/media/pets_black_24dp.c2d47449.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.98e1b141.js",
+    "static/js/2.7df1da29.chunk.js",
+    "static/css/main.006a5fcb.chunk.css",
+    "static/js/main.4304b88d.chunk.js"
+  ]
+}
