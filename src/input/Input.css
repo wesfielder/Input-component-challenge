@@ -1,0 +1,155 @@
+.standard-label {
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 17px;
+
+  /* Gray 1 */
+  color: #333333;
+}
+
+.standard-label:focus,
+.standard-label-focus {
+  color: #2962ff;
+}
+
+.error-label {
+  color: #d32f2f;
+}
+
+.standard-input {
+  width: 200px;
+  height: 56px;
+
+  /* Gray 3 */
+  border: 1px solid #828282;
+  box-sizing: border-box;
+  border-radius: 8px;
+
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+
+  /* Gray 3 */
+  color: #333333;
+}
+
+.standard-input::placeholder {
+  /* set the placeholder color explicitly */
+  opacity: 1;
+
+  /* Gray 3 */
+  color: #828282;
+}
+
+.standard-input:hover,
+.standard-input-hover {
+  border: 1px solid #333333;
+}
+
+.standard-input:focus,
+.standard-input-focus {
+  border: 1px solid #2962ff;
+  outline: transparent;
+}
+
+.input-error {
+  border: 1px solid #d32f2f;
+}
+
+.helper-text {
+  display: block;
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+
+  /* Gray 3 */
+  color: #828282;
+}
+
+.error-text {
+  color: #d32f2f;
+}
+
+.disabled-input {
+  /* Gray 6 */
+  background: #f2f2f2;
+
+  /* Gray 5 */
+  border: 1px solid #e0e0e0;
+}
+
+.disabled-input:hover,
+.disabled-input-hover {
+  border: 1px solid #e0e0e0;
+}
+
+.disabled-input:focus,
+.disabled-input-focus {
+  border: 1px solid #e0e0e0;
+}
+
+.small-input {
+  height: 40px;
+}
+
+.full-width-input {
+  width: 100%;
+}
+
+.multiline-input {
+  height: auto;
+  resize: none;
+  line-height: 2.5em;
+}
+
+.icon-grid {
+  display: grid;
+  /* TODO: set inner column width based on total input width */
+  grid-template-columns: 40px 120px 40px;
+}
+
+.start-img {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  margin: 0;
+  padding: 0;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.end-img {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  margin: 0;
+  padding: 0;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.start-icon {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  padding-left: 40px;
+}
+
+.end-icon {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  padding-right: 40px;
+}
